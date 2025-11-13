@@ -1,0 +1,14 @@
+# binários
+*.exe
+
+# pastas comuns
+bin/
+dist/
+
+# saídas locais
+inventario.csv
+inventario_erros.txt
+
+# IDEs
+.vscode/
+.idea/
