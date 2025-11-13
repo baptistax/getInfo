@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-func osGetenv(k string) string { return os.Getenv(k) }
+func Getenv(k string) string { return os.Getenv(k) }
 
 // HideWindow avoids flashing console windows when calling tools.
 func runCmdTimeout(timeoutSec int, name string, args ...string) (string, error) {

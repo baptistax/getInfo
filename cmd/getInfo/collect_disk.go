@@ -66,7 +66,7 @@ func getIsSSD(c *collector) string {
 
 // small env helper
 func getenvOr(k, def string) string {
-	if v := strings.TrimSpace(osGetenv(k)); v != "" {
+	if v := strings.TrimSpace(Getenv(k)); v != "" {
 		return v
 	}
 	return def
